@@ -1,0 +1,117 @@
+.back_abu {
+    /* flex-direction: column; */
+    background-color: rgba(71, 71, 71, 0.66);
+    height: 100%;
+    width: auto;
+    margin: 15px 34px 0px 34px;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px
+}
+
+.judul h1{
+    margin: 40px 0px 40px 0px;
+    font-size: 40px;
+}
+
+.map{
+    /* margin: 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map iframe{
+    width: 90%;
+    padding: 0px; 
+    margin: 0px 0px 40px 0px;
+}
+
+.form-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(71, 71, 71, 0.66);
+    padding: 20px;
+    margin: 0px;
+}
+
+.form-tab h1{
+    font-size: 2vw;
+    margin: 20px 0px 40px 0px;
+    transition: 0.2s ease-in-out;
+}
+
+.form-styling div{
+    margin-bottom: 20px;
+}
+
+.form-styling{
+    width: 60%;
+    background-color:rgba(91, 91, 91, 0.66);
+    padding: 30px 30px 0px 30px;
+    border-radius: 20px;
+}
+
+.form-styling div input{
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px white;
+    outline: none;
+    background-color: transparent;
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.form-styling label{
+    font-size: 18px;
+}
+
+.submit_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_button button{
+    background-color: rgba(47, 47, 47, 0.66);
+    font-size: 20px;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.submit_button button:hover{
+    background-color: rgba(124, 124, 124, 0.66);
+}
+
+.form-styling textarea{
+    width: 100%;
+    resize: none;
+    border: 0px;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 2px;
+}
+
+.judul_h1 h1{
+    margin: 20px 0px 20px 0px;
+    font-size: 3vw;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+}
